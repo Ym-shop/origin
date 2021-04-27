@@ -22,7 +22,7 @@ body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-t
 }
 /*ヘッダー*/
 
-@media screen and (min-width: 816px){
+@media screen and (min-width: 768px){
 .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media{
   height: calc(60vh - 30px);
 }
@@ -33,7 +33,7 @@ body.colors-dark, .colors-dark .site-content-contain, .colors-dark .navigation-t
 body.home.title-tagline-hidden.has-header-image .custom-logo-link img{
   max-height: 80px;
 }
-/*トップページメニュー*/@media screen and (min-width: 816px){
+/*トップページメニュー*/@media screen and (min-width: 768px){
   .main-navigation li{
     border-right: dotted 1px #605f5f;
   }
@@ -200,6 +200,7 @@ padding-top: 0;
   margin-top: 0px;
   margin-bottom: 2px;
   border: double;
+  text-align: center;
 }
 
 .tokotop:hover{
@@ -351,6 +352,10 @@ h2.widget-title {
 }
 }
 
+.entry-title:not(:first-child) {
+  text-align: left;
+}
+
 .entry-meta .byline{
   display:none !important;
 }
@@ -378,7 +383,7 @@ h2.widget-title {
 
 body.page-two-column:not(.archive) #primary .entry-content{
   float: inherit;
-  width: 70%;
+  width: 71%;
 }
 
 
